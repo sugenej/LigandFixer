@@ -29,6 +29,13 @@ python ligandfix.py ligand.smi --output fixed.sdf --add-hydrogens --generate-3d
 # Python API
 from ligandfixer import fix_ligand
 
+report = fix_ligand("my_molecule.mol2")
+print(report.summary())
+
+"""
+OR
+"""
+
 report = fix_ligand(
     "ligand.mol2",
     output_path="ligand_fixed.sdf",
