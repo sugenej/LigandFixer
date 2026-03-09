@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/25833625/README.md)# MolTriage
+# MolTriage
 **Repair and normalize ligand structure files for docking pipelines.**
 
 Software to repair and normalize broken small molecule files for computational chemistry pipelines.
