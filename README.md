@@ -1,4 +1,4 @@
-# MolTriage
+# LigandFixer
 **Repair and normalize ligand structure files for docking pipelines.**
 
 Software to repair and normalize broken small molecule files for computational chemistry pipelines.
