@@ -1,10 +1,11 @@
-# MolTriage
+[README.md](https://github.com/user-attachments/files/25833625/README.md)# MolTriage
 **Repair and normalize ligand structure files for docking pipelines.**
+
 Software to repair and normalize broken small molecule files for computational chemistry pipelines.
 Handles the broken MOL2 aromaticity, wrong charges, missing bonds, and format conversion failures.
 ---
 
-## Instal
+## Install
 ```bash
 pip install rdkit
 pip install openbabel-wheel   # optional: enables MOL2 + PDBQT output
@@ -117,7 +118,7 @@ usage: ligandfix.py [-h] [-o OUTPUT] [--output-format {sdf,mol2,pdb,pdbqt,smiles
                     [--no-charge-check] [--quiet]
                     input
 ```
-
+---
 
 
 ## License
